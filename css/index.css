@@ -136,5 +136,38 @@ button:hover{
 }
 
 /*Mobile Page Styles */
-@media(max-width: 500px){
+@media (max-width: 500px){
+
+  /* header */
+  nav{
+    width: 50%;
+  }
+  nav a{
+    font-size: 2rem;
+  }
+  nav span{
+    border-left: .1rem solid #626262;
+  }
+
+  /* title container */
+  .title-container div{
+    width: 100%;
+  }
+  .title-container div h1{
+    font-size: 4rem;
+  }
+  .title-container hr{
+    width: 100%;
+  }
+
+  /* artists container */
+  .artists-container{
+    flex-flow: row wrap;
+  }
+  .artist{
+    width: 90%;
+  }
+  .artist img{
+    object-fit: contain;
+  }
 }
