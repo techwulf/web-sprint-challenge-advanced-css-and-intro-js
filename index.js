@@ -289,8 +289,16 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array) {
+  array.push({
+    id: 20,
+    name: 'Thomas Moore',
+    years: '1991 - 2021',
+    genre: 'Web Design',
+    nationality: 'Caucasian',
+    bio: 'A superb web artist of the 21st century. Some would describe him as a legend'
+  });
+  return array;
 }
 
 
